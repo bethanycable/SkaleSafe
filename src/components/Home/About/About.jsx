@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className=" h-[38rem] sm:h-[19rem] w-screen flex flex-col items-center justify-center gap-16 px-10"
+      className=" h-[38rem] md:h-[19rem] w-screen flex flex-col items-center justify-center gap-16 px-10"
     >
       <h1
         id="aboutText"
@@ -16,11 +16,11 @@ const About = () => {
       <div className="flex">
         <img
           id="aboutbullets1"
-          className="w-6 h-6 sm:w-2 sm:h-2"
+          className="w-6 h-6 md:w-2 md:h-2"
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet1" className="sm:text-sm text-xl text-honeydew px-4">
+        <span id="bullet1" className="md:text-sm text-xl text-honeydew px-4">
           SkaleSafe was created to provide comprehensive insight into the
           auto-scaling behaviors of Kubernetes clusters.
         </span>
@@ -28,7 +28,7 @@ const About = () => {
       <div className="flex">
         <img
           id="aboutbullets2"
-          className="w-6 h-6 sm:w-2 sm:h-2"
+          className="w-6 h-6 md:w-2 md:h-2"
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
@@ -40,7 +40,7 @@ const About = () => {
       <div className="flex">
         <img
           id="aboutbullets2"
-          className="w-6 h-6 sm:w-2 sm:h-2"
+          className="w-6 h-6 md:w-2 md:h-2"
           src="skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
@@ -52,11 +52,11 @@ const About = () => {
       <div className="flex">
         <img
           id="aboutbullets3"
-          className="w-6 h-6 sm:w-2 sm:h-2"
+          className="w-6 h-6 md:w-2 md:h-2"
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet3" className="sm:text-sm text-xl text-honeydew px-4">
+        <span id="bullet3" className="md:text-sm text-xl text-honeydew px-4">
           This application is your one-stop-shop for monitoring the performance
           of your K8s auto-scaling architecture, saving you{' '}
           <span className="font-bold">time</span> and{' '}
