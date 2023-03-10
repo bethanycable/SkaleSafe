@@ -20,7 +20,7 @@ const About = () => {
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet1" className="md:text-sm text-xl text-honeydew px-4">
+        <span id="bullet1" className="text-xl text-honeydew px-4">
           SkaleSafe was created to provide comprehensive insight into the
           auto-scaling behaviors of Kubernetes clusters.
         </span>
@@ -32,7 +32,7 @@ const About = () => {
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet2" className="sm:text-sm text-xl text-honeydew px-4">
+        <span id="bullet2" className="text-xl text-honeydew px-4">
           It incorporates tried and true technologies Prometheus, Grafana and
           Kubeview for interactive, easy-to-use visualizations.
         </span>
@@ -44,7 +44,7 @@ const About = () => {
           src="skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet2" className="sm:text-sm text-xl text-honeydew px-4">
+        <span id="bullet2" className=" text-xl text-honeydew px-4">
           SkaleSafe scrapes detailed cluster metrics and transforms them into a
           powerful suite of elegant and intuitive graphs and displays.
         </span>
