@@ -1,24 +1,15 @@
-/* .app__navbar-menu {
-  width:50%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 5;
-  padding: 1rem;
-  background-color: theme('colors.prussian-blue'); 
-}; */
+.navbar-list {
+  display: none;
+}
 
-.app__navbar-menu-out {
-  width:50%;
+.app__navbar-menu {
+  width:60%;
   height: 100vh;
   position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
   z-index: 5;
-  padding: 1rem;
   background-color: theme('colors.sapphire-blue');
 }
 
@@ -35,18 +26,16 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: space-between;
   position: relative;
-  top: 60px;
+  top: 100px;
 }
-
-
 .navbar-media {
-  
+  margin-top: 3.5rem;
 }
 
-/* @media screen and (min-width: 425px){
-  .app__navbar-list {
+@media screen and (min-width: 900px){
+  .navbar-list {
+    display: flex;
     flex-direction: row;
   }
-} */
+}
