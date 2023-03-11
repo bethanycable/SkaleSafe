@@ -10,7 +10,6 @@ body {
     justify-content: center;
     background: theme('colors.prussian-blue');
     overflow-x: hidden;
-    overflow-y: hidden;
     margin: 0;
     padding: 0;
 }

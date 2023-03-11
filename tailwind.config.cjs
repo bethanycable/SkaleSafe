@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       screens: {
         xs: '425px',
+        ml: '900px',
       },
       colors: {
         'light-grey': '#91A3B0',
