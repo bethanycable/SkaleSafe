@@ -21,13 +21,13 @@ function Footer() {
   return (
     <div
       id="footerborder"
-      className="border-t border-honeydew h-20 w-screen flex flex-row justify-between items-center px-20"
+      className="border-t border-honeydew h-20 w-screen flex flex-row justify-between items-center pl-4 px-10 ml:px-20"
     >
-      <ul id="footertext" className="text-honeydew text-sm">
+      <ul className="text-honeydew text-sm">
         <li>@2023 SKALESAFE INC.</li>
         <li>All rights reserved</li>
       </ul>
-      <ul className="w-10 flex flex-row justify-between">
+      <ul className="w-14 flex flex-row justify-between gap-x-2">
         {footerIcons.map(([mediaTag, link]) => (
           <li>
             <a href={link} target="_blank" rel="noreferrer">
