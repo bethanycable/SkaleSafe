@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="h-[42rem] ml:h-[48rem] pt-6 ml:py-0 w-screen bg-gradient-to-tr from-teal-blue flex flex-col items-center justify-evenly"
+      className="h-[42rem] ml:h-[48rem] pt-6 ml:py-0 w-screen bg-gradient-to-tr from-teal-blue flex flex-col ml:flex-row items-center justify-evenly"
     >
       <h1
         className="text-5xl ml:text-4xl text-center text-primary-color leading-snug ml:leading-relaxed tracking-wide"
@@ -20,7 +20,7 @@ const Home = () => {
         </span>
       </h1>
       <img
-        className="order-first w-4/5 ml:w-2/5 max-w-lg"
+        className="order-first ml:order-none w-4/5 ml:w-2/5 max-w-lg"
         src="/SkaleSafecolor.svg"
         alt="A fish inside a shield. SkaleSafe"
       />

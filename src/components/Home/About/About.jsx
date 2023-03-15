@@ -13,7 +13,7 @@ const About = () => {
       className="h-[44rem] ml:h-[38rem] w-screen flex flex-col items-center justify-center gap-16 px-8 ml:px-10"
     >
       <h1
-        className="text-2xl lg:text-4xl text-honeydew font-bold uppercase tracking-wider border-b-4"
+        className="text-3xl lg:text-4xl text-honeydew font-bold uppercase tracking-wider border-b-4"
       >
         About
       </h1>
