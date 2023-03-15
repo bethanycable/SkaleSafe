@@ -3,27 +3,23 @@ import React from 'react';
 const Home = () => {
   return (
     <div
-      id="home"
-      className="h-[48rem] w-screen bg-gradient-to-tr from-teal-blue flex flex-row items-center justify-evenly"
+      className="home__container h-[38rem] ml:h-[48rem] w-screen bg-gradient-to-tr from-teal-blue flex flex-col items-center justify-evenly"
     >
       <h1
-        id="eleh1"
-        className="text-6xl text-primary-color leading-relaxed tracking-wide m-0 p-0"
+        className="text-4xl text-center text-primary-color leading-relaxed tracking-wide"
       >
         Kubernetes
         <br />
-        Auto-scaling
+        Auto-Scaling
         <br />
         <span
-          id="elespan"
-          className="font-semibold text-honeydew underline underline-offset-4 capitalize"
+          className="font-semibold text-5xl text-honeydew underline underline-offset-4"
         >
           Demystified
         </span>
       </h1>
       <img
-        id="homeLogo"
-        className="w-2/5 max-w-lg"
+        className="order-first w-2/5 max-w-lg"
         src="/SkaleSafecolor.svg"
         alt="A fish inside a shield. SkaleSafe"
       />
