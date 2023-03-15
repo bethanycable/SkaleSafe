@@ -7,7 +7,7 @@ const Demo = () => {
       className="h-[24rem] ml:h-[42rem] w-screen flex flex-col items-center justify-center"
     >
       <h1
-        className="text-3xl text-honeydew font-bold ml:mt-6 mb-6 ml:mb-10 tracking-wider border-b-4"
+        className="text-3xl ml:text-4xl text-honeydew font-bold ml:mt-6 mb-6 ml:mb-10 tracking-wider border-b-4"
       >
         DEMO
       </h1>
