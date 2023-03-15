@@ -3,6 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <div
+    id="home"
       className="home__container h-[38rem] ml:h-[48rem] w-screen bg-gradient-to-tr from-teal-blue flex flex-col items-center justify-evenly"
     >
       <h1

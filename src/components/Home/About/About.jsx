@@ -2,61 +2,61 @@
 import React from 'react';
 
 const About = () => {
+
+  const bulletText = "text-l ml:text-xl text-honeydew px-4"
+  const bulletImg = "w-6 h-6 ml:w-8 ml:h-8"
+  const about__bullets = "flex items-center"
+
   return (
     <div
       id="about"
-      className=" h-[38rem] w-screen flex flex-col items-center justify-center gap-16 px-10"
+      className="h-[44rem] ml:h-[38rem] w-screen flex flex-col items-center justify-center gap-16 px-8 ml:px-10"
     >
       <h1
-        id="aboutText"
-        className="text-xl lg:text-4xl text-honeydew font-bold uppercase tracking-wider border-b-4"
+        className="text-2xl lg:text-4xl text-honeydew font-bold uppercase tracking-wider border-b-4"
       >
         About
       </h1>
-      <div className="flex">
+      <div className={about__bullets}>
         <img
-          id="aboutbullets1"
-          className="w-6 h-6"
+          className={bulletImg}
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet1" className="text-xl text-honeydew px-4">
+        <span className={bulletText}>
           SkaleSafe was created to provide comprehensive insight into the
           auto-scaling behaviors of Kubernetes clusters.
         </span>
       </div>
-      <div className="flex">
+      <div className={about__bullets}>
         <img
-          id="aboutbullets2"
-          className="w-6 h-6"
+          className={bulletImg}
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet2" className="text-xl text-honeydew px-4">
+        <span className={bulletText}>
           It incorporates tried and true technologies Prometheus, Grafana and
           Kubeview for interactive, easy-to-use visualizations.
         </span>
       </div>
-      <div className="flex">
+      <div className={about__bullets}>
         <img
-          id="aboutbullets2"
-          className="w-6 h-6"
+          className={bulletImg}
           src="skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet2" className=" text-xl text-honeydew px-4">
+        <span className={bulletText}>
           SkaleSafe scrapes detailed cluster metrics and transforms them into a
           powerful suite of elegant and intuitive graphs and displays.
         </span>
       </div>
-      <div className="flex">
+      <div className={about__bullets}>
         <img
-          id="aboutbullets3"
-          className="w-6 h-6"
+          className={bulletImg}
           src="/skaleSafelight.png"
           alt="A fish inside a shield. SkaleSafe. Scale with confidence."
         />
-        <span id="bullet3" className="text-xl text-honeydew px-4">
+        <span className={bulletText}>
           This application is your one-stop-shop for monitoring the performance
           of your K8s auto-scaling architecture, saving you{' '}
           <span className="font-bold">time</span> and{' '}
