@@ -15,13 +15,13 @@ const MeetTeam = () => {
   return (
     <div
       id="team"
-      className=" ml:h-[50rem] w-screen p-10 ml:px-20 ml:pt-10 bg-gradient-to-b from-teal-blue flex flex-col items-center justify-center"
+      className=" w-screen p-10 ml:px-20 ml:pt-10 bg-gradient-to-b from-teal-blue flex flex-col items-center justify-center"
     >
       <h1 className="app__titles mb-6 ml:mt-18">Meet The Team</h1>
 
       <div className="team__cards-container h-11/12 w-full">
         {Team.map((member) => (
-          <div className="team__cards h-56 w-40 md:h-72 md:w-44 bg-gradient-to-tr from-primary-color/30 to-light-blue/30">
+          <div className="team__cards h-56 w-40 md:h-72 md:w-44 ml:h-80 ml:w-2/5 lg:h-96 lg:w-full bg-gradient-to-tr from-primary-color/30 to-light-blue/30">
             <h2 className="md:text-lg ml:text-2xl font-bold text-center break-words">
               {member.name}
             </h2>
@@ -30,7 +30,7 @@ const MeetTeam = () => {
               src={member.image}
               alt={member.alt}
             />
-            <p className="hidden ml:block w-4/5 lg:w-40 text-center">
+            <p className="hidden  ml:block w-40 lg:w-40 text-center">
               {member.bio}
             </p>
             <div className="team__cards-media ml:static ml:right-0 ml:bottom-0 ml:gap-8">

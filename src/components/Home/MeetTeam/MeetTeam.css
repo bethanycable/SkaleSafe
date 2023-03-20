@@ -43,3 +43,9 @@
     gap: 1.1rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .team__cards-container {
+    flex-wrap: nowrap;
+  }
+}
