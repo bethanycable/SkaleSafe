@@ -2,21 +2,16 @@
 import React from 'react';
 
 const About = () => {
-
-  const bulletText = "text-l ml:text-xl text-honeydew px-4"
-  const bulletImg = "w-6 h-6 ml:w-8 ml:h-8"
-  const about__bullets = "flex items-center"
+  const bulletText = 'text-l ml:text-xl px-4';
+  const bulletImg = 'w-6 h-6 ml:w-8 ml:h-8';
+  const about__bullets = 'flex items-center';
 
   return (
     <div
       id="about"
-      className="h-[44rem] ml:h-[38rem] w-screen flex flex-col items-center justify-center gap-16 px-8 ml:px-10"
+      className=" ml:h-[38rem] w-screen flex flex-col items-center justify-center gap-16 p-8 ml:p-10"
     >
-      <h1
-        className="text-3xl lg:text-4xl text-honeydew font-bold uppercase tracking-wider border-b-4"
-      >
-        About
-      </h1>
+      <h1 className="app__titles">About</h1>
       <div className={about__bullets}>
         <img
           className={bulletImg}
@@ -65,6 +60,6 @@ const About = () => {
       </div>
     </div>
   );
-}
+};
 
 export default About;

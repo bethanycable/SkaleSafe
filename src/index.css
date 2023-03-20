@@ -7,6 +7,7 @@ body {
     height: 100vh;
     display: flex;
     font-family: theme('fontFamily.roboto');
+    color: theme("colors.honeydew");
     justify-content: center;
     background: theme('colors.prussian-blue');
     overflow-x: hidden;
@@ -14,8 +15,19 @@ body {
     padding: 0;
 }
 
-/* .app__navbar-menu {
-    width: 35px;
-    height: 35px;
-    background-color: theme('colors.prussian-blue');
-}; */
+.app__titles {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+    font-weight: 700;
+
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    border-bottom: 4px solid;
+}
+
+@media screen and (min-width: 900px) {
+    .app__titles {
+        font-size: 3rem;
+    }
+}

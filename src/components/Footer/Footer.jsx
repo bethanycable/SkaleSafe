@@ -20,10 +20,10 @@ function Footer() {
 
   return (
     <div
-      id="footerborder"
-      className="border-t border-honeydew h-20 w-screen flex flex-row justify-between items-center pl-4 px-10 ml:px-20"
+      id="footer"
+      className="border-t border-honeydew h-20 w-full flex flex-row justify-between items-center pl-4 px-10 ml:px-20"
     >
-      <ul className="text-honeydew text-sm">
+      <ul className="text-sm">
         <li>@2023 SKALESAFE INC.</li>
         <li>All rights reserved</li>
       </ul>

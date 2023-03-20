@@ -3,7 +3,7 @@
 }
 
 .app__navbar-menu {
-  width:60%;
+  width:50%;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -31,6 +31,12 @@
 }
 .navbar-media {
   margin-top: 3.5rem;
+}
+
+@media screen and (min-width: 775px) {
+  .app__navbar-menu {
+    width: 30%
+  }
 }
 
 @media screen and (min-width: 900px){
