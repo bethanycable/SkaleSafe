@@ -1,0 +1,24 @@
+.features__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  row-gap: 1rem; 
+}
+
+@media screen and (min-width: 950px) {
+  .features__items {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 2rem;
+  }
+
+  /* .features__items_start {
+    justify-self: flex-start;
+
+  }
+
+  .features__items_end {
+    justify-self: flex-end;
+  } */
+}

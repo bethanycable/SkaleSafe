@@ -26,8 +26,8 @@ body {
     border-bottom: 4px solid;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 950px) {
     .app__titles {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 }

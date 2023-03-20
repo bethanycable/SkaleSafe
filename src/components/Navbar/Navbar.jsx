@@ -17,19 +17,24 @@ const Navbar = () => {
 
   // ADD ID BELOW
   const links =
-    'text-2xl font-semi px-2 py-1 hover:scale-110 hover:text-primary-color hover:shadow-[inset_13rem_0_0_0] hover:shadow-off-white/20 hover:border-primary-color duration-[400ms,700ms] transition-[color,box-shadow]';
+    'navbar-links hover:scale-110 hover:text-primary-color hover:shadow-[inset_13rem_0_0_0] hover:shadow-off-white/20 hover:border-primary-color duration-[400ms,700ms] transition-[color,box-shadow]';
+
+  const menuLinks =
+    'navbar-links hover:scale-110 hover:text-primary-color hover:border-primary-color duration-[400ms,700ms] transition-[color,box-shadow]';
 
   return (
-    <nav className="fixed w-screen h-20 flex flex-row items-center justify-between bg-honeydew/10 px-4 ml:px-14 shadow-md shadow-honeydew/10">
-      <div className="flex flex-row justify-evenly items-center w-32 h-10 lg:w-60 lg:h-12 rounded-full bg-sapphire-blue shadow shadow-honeydew/20">
+    <nav className="fixed w-screen h-20 flex flex-row items-center justify-between bg-honeydew/10 px-4 ml:px-8 lg:px-10 shadow-md shadow-honeydew/10">
+      <div className="navbar-logo items-center w-32 h-10 md:w-44 md:h-12 lg:w-48 lg:h-14 shadow shadow-honeydew/20">
         <img
-          className="max-h-sm w-4 ml:w-8"
+          className="max-h-sm w-4 md:w-8"
           src="/skaleSafelight.png"
           alt="A fish inside a shield"
         />
-        <h1 className="text-primary-color text-base ml:text-3xl">SkaleSafe</h1>
+        <h1 className="text-primary-color text-base md:text-xl lg:text-2xl">
+          SkaleSafe
+        </h1>
       </div>
-      <ul className="navbar-list gap-x-4">
+      <ul className="navbar-list gap-x-2 lg:gap-x-4">
         {[
           ['Home', '#home'],
           ['About', '#about'],
@@ -44,7 +49,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <ul className="navbar-list gap-x-4">
+      <ul className="navbar-list gap-x-2 lg:gap-x-4">
         <li className={links}>
           <a
             href="https://github.com/oslabs-beta/SkaleSafe#readme"
@@ -65,7 +70,7 @@ const Navbar = () => {
       />
       {toggle && (
         <motion.div
-          className="app__navbar-menu"
+          className="navbar-menu"
           whileInView={{ x: [200, 0] }}
           transition={{ duration: 0.75, ease: 'easeOut' }}
         >
@@ -73,7 +78,7 @@ const Navbar = () => {
             className="navbar-menu-close ml:hidden w-10 h-10 p-2 fill-honeydew bg-honeydew/20 rounded-full hover:shadow-[inset_13rem_0_0_0] hover:shadow-off-white/20"
             onClick={() => setToggle(false)}
           />
-          <ul className="app__navbar-list gap-y-4">
+          <ul className="app__navbar-list gap-x-2 lg:gap-x-4">
             {[
               ['Home', '#home'],
               ['About', '#about'],
@@ -82,15 +87,15 @@ const Navbar = () => {
               ['The Team', '#team'],
             ].map(([title, url]) => (
               <li key={title}>
-                <a href={url} className={links} onClick={handleClick}>
+                <a href={url} className={menuLinks} onClick={handleClick}>
                   {title}
                 </a>
               </li>
             ))}
           </ul>
 
-          <ul className="app__navbar-list navbar-media gap-y-2">
-            <li className={links}>
+          <ul className="app__navbar-list navbar-media gap-x-2 lg:gap-x-4">
+            <li className={menuLinks}>
               <a
                 href="https://github.com/oslabs-beta/SkaleSafe#readme"
                 target="_blank"
@@ -98,7 +103,7 @@ const Navbar = () => {
                 Github
               </a>
             </li>
-            <li className={links}>
+            <li className={menuLinks}>
               <a
                 href="https://www.linkedin.com/company/skalesafe"
                 target="_blank"

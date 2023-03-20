@@ -1,11 +1,21 @@
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 9999px;
+  background-color: theme("colors.sapphire-blue");
+}
+
 .navbar-list {
   display: none;
 }
 
-.app__navbar-menu {
+.navbar-menu {
   width:50%;
   height: 100vh;
   position: fixed;
+  padding-left: 8px;
   top: 0;
   bottom: 0;
   right: 0;
@@ -16,10 +26,9 @@
 .navbar-menu-close {
   cursor: pointer;
   position: fixed;
-  margin: 15px 15px;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  top: 15px;
+
+  right: 15px;
 }
 
 .app__navbar-list {
@@ -33,15 +42,27 @@
   margin-top: 3.5rem;
 }
 
-@media screen and (min-width: 775px) {
-  .app__navbar-menu {
+.navbar-links {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 0.25rem 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-menu {
     width: 30%
   }
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 950px){
   .navbar-list {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-links {
+    font-size: 1.35rem;
   }
 }
