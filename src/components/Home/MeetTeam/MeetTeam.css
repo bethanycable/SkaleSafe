@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   padding: 0.5rem;
-  gap: .5rem;
+  gap: .75rem;
 
   border: 1px solid;
   border-radius: 0.75rem;
@@ -23,15 +23,7 @@
   --tw-shadow-color: currentColor;
 }
 
-/* .team__cards-names {
-  flex-basis: 50%;
-  overflow-wrap: break-word;
-  font-weight: 700;
-} */
-
 .team__cards-img {
-  flex-basis: 25%;
-
   border: 4px solid;
   border-radius: 9999px;
   border-color: theme("colors.honeydew");
@@ -43,4 +35,11 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  .team__cards {
+    gap: 1.1rem;
+  }
 }

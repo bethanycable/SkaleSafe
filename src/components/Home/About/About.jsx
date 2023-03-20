@@ -2,14 +2,14 @@
 import React from 'react';
 
 const About = () => {
-  const bulletText = 'text-l ml:text-xl px-4';
+  const bulletText = 'text-l ml:text-xl pl-4';
   const bulletImg = 'w-6 h-6 ml:w-8 ml:h-8';
   const about__bullets = 'flex items-center';
 
   return (
     <div
       id="about"
-      className=" ml:h-[38rem] w-screen flex flex-col items-center justify-center gap-16 p-8 ml:p-10"
+      className="w-screen flex flex-col items-center justify-center gap-16 p-8 ml:p-10"
     >
       <h1 className="app__titles">About</h1>
       <div className={about__bullets}>

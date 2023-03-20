@@ -21,8 +21,8 @@ const MeetTeam = () => {
 
       <div className="team__cards-container h-11/12 w-full">
         {Team.map((member) => (
-          <div className="team__cards h-56 w-40 bg-gradient-to-tr from-primary-color/30 to-light-blue/30">
-            <h2 className=" ml:basis-0 ml:text-2xl font-bold text-center break-words">
+          <div className="team__cards h-56 w-40 md:h-72 md:w-44 bg-gradient-to-tr from-primary-color/30 to-light-blue/30">
+            <h2 className="md:text-lg ml:text-2xl font-bold text-center break-words">
               {member.name}
             </h2>
             <img
