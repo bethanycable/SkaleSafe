@@ -4,14 +4,14 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="h-[42rem] ml:h-[48rem] pt-6 ml:py-0 w-screen bg-gradient-to-tr from-teal-blue flex flex-col ml:flex-row items-center justify-evenly"
+      className="h-[42rem] pt-6 md:pt-8 ml:py-0 w-screen bg-gradient-to-tr from-teal-blue flex flex-col ml:flex-row items-center justify-evenly"
     >
-      <h1 className="text-5xl ml:text-4xl text-center text-primary-color leading-snug ml:leading-relaxed tracking-wide">
+      <h1 className="text-4xl ml:text-5xl text-center text-primary-color leading-snug ml:leading-relaxed tracking-wide">
         Kubernetes
         <br />
         Auto-Scaling
         <br />
-        <span className="font-semibold text-5xl ml:text-4xl text-honeydew underline underline-offset-4">
+        <span className="font-semibold text-4xl ml:text-5xl text-honeydew underline underline-offset-4">
           Demystified
         </span>
       </h1>
