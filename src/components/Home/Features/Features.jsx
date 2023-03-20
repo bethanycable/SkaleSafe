@@ -26,8 +26,8 @@ const Features = () => {
             current state and over time.
           </p>
         </div>
-        <div className={features__items_end}>
-          <p className="ml:mr-52">
+        <div className={features__items_start}>
+          <p className="ml:ml-52">
             The Cluster Health tab visualizes an assortment of broader metrics
             which together paint a picture of the cluster’s overall performance.
           </p>
@@ -47,8 +47,8 @@ const Features = () => {
             namespaces, showing their respective relationships to one another.
           </p>
         </div>
-        <div className={features__items_end}>
-          <p className="ml:mr-52">
+        <div className={features__items_start}>
+          <p className="ml:ml-52">
             The Alerts tab tracks activity regarding Prometheus alerts that have
             been configured for this cluster.
           </p>

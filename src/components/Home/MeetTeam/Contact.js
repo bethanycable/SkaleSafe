@@ -1,6 +1,6 @@
 const Team = [
   {
-    name: 'Leonardo Brian Campos',
+    name: 'Brian Campos',
     image: '/Brian&Kai.jpg',
     alt: 'Leonardo Campos with his dog Kai',
     bio: ` Software Engineer`,
